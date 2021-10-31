@@ -10,8 +10,8 @@ rm -f DockerfileProcessed.*
 echo "Cleaning up..."
 sleep 1s
 
-export CERTBOT_IMAGE_NAME="caprover/certbot-sleeping"
-export CERTBOT_VERSION="v1.6.0"
+export CERTBOT_IMAGE_NAME="kaotic13/certbot-sleeping-cloudflare"
+export CERTBOT_VERSION="v1.0.0"
 
 
 
